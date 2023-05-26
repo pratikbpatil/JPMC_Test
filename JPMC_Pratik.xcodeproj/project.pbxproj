@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD9E71D72A10AB870093F720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E71D62A10AB870093F720 /* AppDelegate.swift */; };
+		CD9E71D92A10AB870093F720 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E71D82A10AB870093F720 /* SceneDelegate.swift */; };
+		CD9E71DB2A10AB870093F720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E71DA2A10AB870093F720 /* ViewController.swift */; };
+		CD9E71DE2A10AB870093F720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9E71DC2A10AB870093F720 /* Main.storyboard */; };
+		CD9E71E12A10AB870093F720 /* JPMC_Pratik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD9E71DF2A10AB870093F720 /* JPMC_Pratik.xcdatamodeld */; };
+		CD9E71E32A10AB8B0093F720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9E71E22A10AB8B0093F720 /* Assets.xcassets */; };
+		CD9E71E62A10AB8B0093F720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9E71E42A10AB8B0093F720 /* LaunchScreen.storyboard */; };
+		CD9E71F12A10AB8B0093F720 /* JPMC_PratikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E71F02A10AB8B0093F720 /* JPMC_PratikTests.swift */; };
+		CD9E71FB2A10AB8B0093F720 /* JPMC_PratikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E71FA2A10AB8B0093F720 /* JPMC_PratikUITests.swift */; };
+		CD9E71FD2A10AB8B0093F720 /* JPMC_PratikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E71FC2A10AB8B0093F720 /* JPMC_PratikUITestsLaunchTests.swift */; };
+		CDE2782A2A15F9AE00537DCD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278292A15F9AE00537DCD /* CustomTableViewCell.swift */; };
+		CDE2782B2A15F9AE00537DCD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278292A15F9AE00537DCD /* CustomTableViewCell.swift */; };
+		CDE2782C2A15F9AE00537DCD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278292A15F9AE00537DCD /* CustomTableViewCell.swift */; };
+		CDE2782F2A18C35100537DCD /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2782E2A18C35100537DCD /* PlanetModel.swift */; };
+		CDE278302A18C35100537DCD /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2782E2A18C35100537DCD /* PlanetModel.swift */; };
+		CDE278312A18C35100537DCD /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2782E2A18C35100537DCD /* PlanetModel.swift */; };
+		CDE278342A18C6CF00537DCD /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278332A18C6CF00537DCD /* Parser.swift */; };
+		CDE278352A18C6CF00537DCD /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278332A18C6CF00537DCD /* Parser.swift */; };
+		CDE278362A18C6CF00537DCD /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278332A18C6CF00537DCD /* Parser.swift */; };
+		CDE2783A2A1CDA5A00537DCD /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278392A1CDA5A00537DCD /* DatabaseHandler.swift */; };
+		CDE2783B2A1CDA5A00537DCD /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278392A1CDA5A00537DCD /* DatabaseHandler.swift */; };
+		CDE2783C2A1CDA5A00537DCD /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278392A1CDA5A00537DCD /* DatabaseHandler.swift */; };
+		CDE2783F2A1CE0BF00537DCD /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2783E2A1CE0BF00537DCD /* Planet.swift */; };
+		CDE278402A1CE0BF00537DCD /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2783E2A1CE0BF00537DCD /* Planet.swift */; };
+		CDE278412A1CE0BF00537DCD /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2783E2A1CE0BF00537DCD /* Planet.swift */; };
+		CDE278422A1D476600537DCD /* JPMC_Pratik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD9E71DF2A10AB870093F720 /* JPMC_Pratik.xcdatamodeld */; };
+		CDE278432A1D476700537DCD /* JPMC_Pratik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD9E71DF2A10AB870093F720 /* JPMC_Pratik.xcdatamodeld */; };
+		CDE278912A1FE0D700537DCD /* Check Internet Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278902A1FE0D700537DCD /* Check Internet Connectivity.swift */; };
+		CDE278922A1FE0D700537DCD /* Check Internet Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278902A1FE0D700537DCD /* Check Internet Connectivity.swift */; };
+		CDE278932A1FE0D700537DCD /* Check Internet Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE278902A1FE0D700537DCD /* Check Internet Connectivity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9E71ED2A10AB8B0093F720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9E71CB2A10AB870093F720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9E71D22A10AB870093F720;
+			remoteInfo = JPMC_Pratik;
+		};
+		CD9E71F72A10AB8B0093F720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9E71CB2A10AB870093F720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9E71D22A10AB870093F720;
+			remoteInfo = JPMC_Pratik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD9E71D32A10AB870093F720 /* JPMC_Pratik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMC_Pratik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9E71D62A10AB870093F720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD9E71D82A10AB870093F720 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD9E71DA2A10AB870093F720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD9E71DD2A10AB870093F720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD9E71E02A10AB870093F720 /* JPMC_Pratik.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JPMC_Pratik.xcdatamodel; sourceTree = "<group>"; };
+		CD9E71E22A10AB8B0093F720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9E71E52A10AB8B0093F720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9E71E72A10AB8B0093F720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9E71EC2A10AB8B0093F720 /* JPMC_PratikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMC_PratikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9E71F02A10AB8B0093F720 /* JPMC_PratikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMC_PratikTests.swift; sourceTree = "<group>"; };
+		CD9E71F62A10AB8B0093F720 /* JPMC_PratikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMC_PratikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9E71FA2A10AB8B0093F720 /* JPMC_PratikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMC_PratikUITests.swift; sourceTree = "<group>"; };
+		CD9E71FC2A10AB8B0093F720 /* JPMC_PratikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMC_PratikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDE278292A15F9AE00537DCD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CDE2782E2A18C35100537DCD /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
+		CDE278332A18C6CF00537DCD /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		CDE278392A1CDA5A00537DCD /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		CDE2783E2A1CE0BF00537DCD /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		CDE278902A1FE0D700537DCD /* Check Internet Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Check Internet Connectivity.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9E71D02A10AB870093F720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9E71E92A10AB8B0093F720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9E71F32A10AB8B0093F720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD9E71CA2A10AB870093F720 = {
+			isa = PBXGroup;
+			children = (
+				CD9E71D52A10AB870093F720 /* JPMC_Pratik */,
+				CD9E71EF2A10AB8B0093F720 /* JPMC_PratikTests */,
+				CD9E71F92A10AB8B0093F720 /* JPMC_PratikUITests */,
+				CD9E71D42A10AB870093F720 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9E71D42A10AB870093F720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9E71D32A10AB870093F720 /* JPMC_Pratik.app */,
+				CD9E71EC2A10AB8B0093F720 /* JPMC_PratikTests.xctest */,
+				CD9E71F62A10AB8B0093F720 /* JPMC_PratikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9E71D52A10AB870093F720 /* JPMC_Pratik */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2788E2A1FDCCD00537DCD /* Application */,
+				CDE278382A1CDA3400537DCD /* Database */,
+				CDE2782D2A18C2F800537DCD /* Model */,
+				CDE278322A18C6AE00537DCD /* View Model */,
+				CD9E72092A11425E0093F720 /* View Controllers */,
+				CDE278372A18CC3A00537DCD /* View */,
+				CD9E720A2A11427D0093F720 /* Table View Cells */,
+				CD9E71E72A10AB8B0093F720 /* Info.plist */,
+				CDE2788F2A1FE0AE00537DCD /* Utilities */,
+				CDE2788D2A1FDCB400537DCD /* Resources */,
+			);
+			path = JPMC_Pratik;
+			sourceTree = "<group>";
+		};
+		CD9E71EF2A10AB8B0093F720 /* JPMC_PratikTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9E71F02A10AB8B0093F720 /* JPMC_PratikTests.swift */,
+			);
+			path = JPMC_PratikTests;
+			sourceTree = "<group>";
+		};
+		CD9E71F92A10AB8B0093F720 /* JPMC_PratikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9E71FA2A10AB8B0093F720 /* JPMC_PratikUITests.swift */,
+				CD9E71FC2A10AB8B0093F720 /* JPMC_PratikUITestsLaunchTests.swift */,
+			);
+			path = JPMC_PratikUITests;
+			sourceTree = "<group>";
+		};
+		CD9E72092A11425E0093F720 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD9E71DA2A10AB870093F720 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CD9E720A2A11427D0093F720 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CDE278292A15F9AE00537DCD /* CustomTableViewCell.swift */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		CDE2782D2A18C2F800537DCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2782E2A18C35100537DCD /* PlanetModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDE278322A18C6AE00537DCD /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDE278332A18C6CF00537DCD /* Parser.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CDE278372A18CC3A00537DCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD9E71DC2A10AB870093F720 /* Main.storyboard */,
+				CD9E71E42A10AB8B0093F720 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDE278382A1CDA3400537DCD /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				CD9E71DF2A10AB870093F720 /* JPMC_Pratik.xcdatamodeld */,
+				CDE2783D2A1CE0A400537DCD /* Model */,
+				CDE278392A1CDA5A00537DCD /* DatabaseHandler.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		CDE2783D2A1CE0A400537DCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2783E2A1CE0BF00537DCD /* Planet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDE2788D2A1FDCB400537DCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD9E71E22A10AB8B0093F720 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDE2788E2A1FDCCD00537DCD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CD9E71D62A10AB870093F720 /* AppDelegate.swift */,
+				CD9E71D82A10AB870093F720 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CDE2788F2A1FE0AE00537DCD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CDE278902A1FE0D700537DCD /* Check Internet Connectivity.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9E71D22A10AB870093F720 /* JPMC_Pratik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9E72002A10AB8B0093F720 /* Build configuration list for PBXNativeTarget "JPMC_Pratik" */;
+			buildPhases = (
+				CD9E71CF2A10AB870093F720 /* Sources */,
+				CD9E71D02A10AB870093F720 /* Frameworks */,
+				CD9E71D12A10AB870093F720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPMC_Pratik;
+			productName = JPMC_Pratik;
+			productReference = CD9E71D32A10AB870093F720 /* JPMC_Pratik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9E71EB2A10AB8B0093F720 /* JPMC_PratikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9E72032A10AB8B0093F720 /* Build configuration list for PBXNativeTarget "JPMC_PratikTests" */;
+			buildPhases = (
+				CD9E71E82A10AB8B0093F720 /* Sources */,
+				CD9E71E92A10AB8B0093F720 /* Frameworks */,
+				CD9E71EA2A10AB8B0093F720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9E71EE2A10AB8B0093F720 /* PBXTargetDependency */,
+			);
+			name = JPMC_PratikTests;
+			productName = JPMC_PratikTests;
+			productReference = CD9E71EC2A10AB8B0093F720 /* JPMC_PratikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9E71F52A10AB8B0093F720 /* JPMC_PratikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9E72062A10AB8B0093F720 /* Build configuration list for PBXNativeTarget "JPMC_PratikUITests" */;
+			buildPhases = (
+				CD9E71F22A10AB8B0093F720 /* Sources */,
+				CD9E71F32A10AB8B0093F720 /* Frameworks */,
+				CD9E71F42A10AB8B0093F720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9E71F82A10AB8B0093F720 /* PBXTargetDependency */,
+			);
+			name = JPMC_PratikUITests;
+			productName = JPMC_PratikUITests;
+			productReference = CD9E71F62A10AB8B0093F720 /* JPMC_PratikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9E71CB2A10AB870093F720 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CD9E71D22A10AB870093F720 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CD9E71EB2A10AB8B0093F720 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CD9E71D22A10AB870093F720;
+					};
+					CD9E71F52A10AB8B0093F720 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CD9E71D22A10AB870093F720;
+					};
+				};
+			};
+			buildConfigurationList = CD9E71CE2A10AB870093F720 /* Build configuration list for PBXProject "JPMC_Pratik" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9E71CA2A10AB870093F720;
+			productRefGroup = CD9E71D42A10AB870093F720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9E71D22A10AB870093F720 /* JPMC_Pratik */,
+				CD9E71EB2A10AB8B0093F720 /* JPMC_PratikTests */,
+				CD9E71F52A10AB8B0093F720 /* JPMC_PratikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9E71D12A10AB870093F720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9E71E62A10AB8B0093F720 /* LaunchScreen.storyboard in Resources */,
+				CD9E71E32A10AB8B0093F720 /* Assets.xcassets in Resources */,
+				CD9E71DE2A10AB870093F720 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9E71EA2A10AB8B0093F720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9E71F42A10AB8B0093F720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9E71CF2A10AB870093F720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9E71E12A10AB870093F720 /* JPMC_Pratik.xcdatamodeld in Sources */,
+				CDE2782A2A15F9AE00537DCD /* CustomTableViewCell.swift in Sources */,
+				CD9E71DB2A10AB870093F720 /* ViewController.swift in Sources */,
+				CDE2783A2A1CDA5A00537DCD /* DatabaseHandler.swift in Sources */,
+				CD9E71D72A10AB870093F720 /* AppDelegate.swift in Sources */,
+				CD9E71D92A10AB870093F720 /* SceneDelegate.swift in Sources */,
+				CDE278912A1FE0D700537DCD /* Check Internet Connectivity.swift in Sources */,
+				CDE2782F2A18C35100537DCD /* PlanetModel.swift in Sources */,
+				CDE278342A18C6CF00537DCD /* Parser.swift in Sources */,
+				CDE2783F2A1CE0BF00537DCD /* Planet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9E71E82A10AB8B0093F720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE2783B2A1CDA5A00537DCD /* DatabaseHandler.swift in Sources */,
+				CDE278352A18C6CF00537DCD /* Parser.swift in Sources */,
+				CDE278402A1CE0BF00537DCD /* Planet.swift in Sources */,
+				CDE2782B2A15F9AE00537DCD /* CustomTableViewCell.swift in Sources */,
+				CD9E71F12A10AB8B0093F720 /* JPMC_PratikTests.swift in Sources */,
+				CDE278302A18C35100537DCD /* PlanetModel.swift in Sources */,
+				CDE278922A1FE0D700537DCD /* Check Internet Connectivity.swift in Sources */,
+				CDE278422A1D476600537DCD /* JPMC_Pratik.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9E71F22A10AB8B0093F720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE2782C2A15F9AE00537DCD /* CustomTableViewCell.swift in Sources */,
+				CDE278932A1FE0D700537DCD /* Check Internet Connectivity.swift in Sources */,
+				CDE278312A18C35100537DCD /* PlanetModel.swift in Sources */,
+				CDE278362A18C6CF00537DCD /* Parser.swift in Sources */,
+				CDE2783C2A1CDA5A00537DCD /* DatabaseHandler.swift in Sources */,
+				CDE278432A1D476700537DCD /* JPMC_Pratik.xcdatamodeld in Sources */,
+				CDE278412A1CE0BF00537DCD /* Planet.swift in Sources */,
+				CD9E71FB2A10AB8B0093F720 /* JPMC_PratikUITests.swift in Sources */,
+				CD9E71FD2A10AB8B0093F720 /* JPMC_PratikUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9E71EE2A10AB8B0093F720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9E71D22A10AB870093F720 /* JPMC_Pratik */;
+			targetProxy = CD9E71ED2A10AB8B0093F720 /* PBXContainerItemProxy */;
+		};
+		CD9E71F82A10AB8B0093F720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9E71D22A10AB870093F720 /* JPMC_Pratik */;
+			targetProxy = CD9E71F72A10AB8B0093F720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD9E71DC2A10AB870093F720 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9E71DD2A10AB870093F720 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD9E71E42A10AB8B0093F720 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9E71E52A10AB8B0093F720 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9E71FE2A10AB8B0093F720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD9E71FF2A10AB8B0093F720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9E72012A10AB8B0093F720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JPMC_Pratik/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.JPMC-Pratik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD9E72022A10AB8B0093F720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JPMC_Pratik/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.JPMC-Pratik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD9E72042A10AB8B0093F720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.JPMC-PratikTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPMC_Pratik.app/JPMC_Pratik";
+			};
+			name = Debug;
+		};
+		CD9E72052A10AB8B0093F720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.JPMC-PratikTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPMC_Pratik.app/JPMC_Pratik";
+			};
+			name = Release;
+		};
+		CD9E72072A10AB8B0093F720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.JPMC-PratikUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JPMC_Pratik;
+			};
+			name = Debug;
+		};
+		CD9E72082A10AB8B0093F720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.JPMC-PratikUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JPMC_Pratik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9E71CE2A10AB870093F720 /* Build configuration list for PBXProject "JPMC_Pratik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9E71FE2A10AB8B0093F720 /* Debug */,
+				CD9E71FF2A10AB8B0093F720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9E72002A10AB8B0093F720 /* Build configuration list for PBXNativeTarget "JPMC_Pratik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9E72012A10AB8B0093F720 /* Debug */,
+				CD9E72022A10AB8B0093F720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9E72032A10AB8B0093F720 /* Build configuration list for PBXNativeTarget "JPMC_PratikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9E72042A10AB8B0093F720 /* Debug */,
+				CD9E72052A10AB8B0093F720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9E72062A10AB8B0093F720 /* Build configuration list for PBXNativeTarget "JPMC_PratikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9E72072A10AB8B0093F720 /* Debug */,
+				CD9E72082A10AB8B0093F720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD9E71DF2A10AB870093F720 /* JPMC_Pratik.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD9E71E02A10AB870093F720 /* JPMC_Pratik.xcdatamodel */,
+			);
+			currentVersion = CD9E71E02A10AB870093F720 /* JPMC_Pratik.xcdatamodel */;
+			path = JPMC_Pratik.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD9E71CB2A10AB870093F720 /* Project object */;
+}
